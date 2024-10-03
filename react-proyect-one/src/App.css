@@ -1,12 +1,110 @@
-.agents-grid {
-    display: flex;
-    flex-wrap: wrap;
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/*
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c4c4d7;
 }
-  
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #2b2a2a;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input,
+.role-select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #b5afaf;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.view-team-button {
+  background-color: #0466d0;
+  color: rgb(189, 164, 164);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-team-button:hover {
+  background-color: #014082;
+}
+
+.agents-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
 .agent-card {
-    width: 200px;
-    margin: 10px;
-    text-align: center;
+  background-color: rgb(214, 192, 192);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.366);
+  text-align: center;
+}
+
+.agent-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.add-to-team-button {
+  background-color: #146b28;
+  color: rgb(197, 180, 180);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-team-button:hover {
+  background-color: #146b28;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: rgb(219, 197, 197);
+  padding: 10px 15px;
+  border: none;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination .active {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .modal-overlay {
@@ -25,4 +123,48 @@
   background-color: white;
   padding: 20px;
   border-radius: 5px;
+  width: 300px;
+  text-align: center;
 }
+
+.modal button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  background-color: #c82333;
+} */
+
+/* .agents-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.agent-card {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+} */
